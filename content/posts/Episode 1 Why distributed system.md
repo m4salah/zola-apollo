@@ -4,9 +4,7 @@ date = "2023-10-06"
 description = "Episode 1 Why distributed system, why we need it, and when we need it."
 
 [taxonomies]
-tags=["distributed"]
-image= "./Distributed Systems بالعربي ｜ Episode 1 ｜ Why distributed systems？ [s_p3I5CMGJw].webp"
-imageAlt= "Episode 1 thumbnail"
+tags =["distributed"]
 
 [extra]
 repo_view = true
