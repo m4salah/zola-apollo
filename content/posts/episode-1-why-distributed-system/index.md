@@ -48,7 +48,7 @@ The process which we split the compute (CPU) or the state (memory, disk) or both
 ***the state is offloaded.***
 Which machine doesn't hold the state, the state is persisted elsewhere and access it. for example web application running on many servers but they access the same database or database cluster.
 
-![Stateless Distributed Systemes](stateless%20distributed%20systems.png)
+![Stateless Distributed Systems](stateless-distributed-systems.png)
 
 ## Stateful distributed system
 
