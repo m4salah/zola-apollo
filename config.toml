@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://msalah.net/zola-apollo"
+base_url = "https://msalah.io/"
 title = "Mohamed A. Salah"
 description = "My name is Mohamed A. Salah and this is my digital space/garden"
 
