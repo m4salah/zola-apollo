@@ -1,18 +1,28 @@
-# The URL the site will be built for
-base_url = "https://msalah.io/"
 title = "Mohamed A. Salah"
-description = "My name is Mohamed A. Salah and this is my digital space/garden"
-
-theme = "apollo"
-taxonomies = [{ name = "tags" }]
+base_url = "/"
+description = "A Zola-theme based on Bear Blog."
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
+compile_sass = false
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+build_search_index = false
 
-generate_feeds = true
+taxonomies = [
+	{ name = "categories", feed = true },
+	{ name = "tags", feed = true },
+]
+
+default_language = "en"
+
+[translations]
+no_posts = "No posts yet"
+remove_filter = "Remove filter"
+filtering_for = "Filtering for"
+made_with = "Made with"
+table_of_contents = "Table of contents"
+language = "language"
+site = "site"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -20,25 +30,21 @@ generate_feeds = true
 highlight_code = true
 
 [extra]
-# Put all your custom variables here
-toc = true
-use_cdn = true
-favicon = "/icon/favicon.png"
-theme = "toggle"                                             # light, dark, auto, toggle
-comment = false
-fancy_code = true
-dynamic_note = true                                          # a note that can be toggled
-mathjax = true
-mathjax_dollar_inline_enable = true
-repo_url = "https://github.com/m4salah/zola-apollo/content/"
+date_format = "%Y-%m-%d"
+webserver_sends_csp_headers = true
+translations = [{ code = "en", name = "English" }]
 
-menu = [
-	{ name = "/posts", url = "/posts", weight = 1 },
-	{ name = "/tags", url = "/tags", weight = 4 },
-]
+[extra.table_of_contents]
+show = true
+max_level = 2
+visible_on_load = true
 
-socials = [
-	{ name = "github", url = "https://github.com/m4salah/", icon = "github" },
-	{ name = "linkedIn", url = "https://linkedin.com/in/mohamed-a-salah/", icon = "linkedin" },
-	{ name = "email", url = "mailto:me@msalah.net", icon = "email" },
-]
+[[extra.main_menu]]
+name = "Home"
+name_de = "Startseite"
+url = "@/_index.md"
+
+[[extra.main_menu]]
+name = "Blog"
+name_de = "Blog"
+url = "@/blog/_index.md"

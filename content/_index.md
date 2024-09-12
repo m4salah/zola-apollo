@@ -1,20 +1,23 @@
 +++
-title= "Mohamed A. Salah"
-template = "homepage.html"
 +++
+# A match made in heaven
 
-[![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)
+There is a website obesity crisis. Bloated websites full of scripts, ads, and trackers are slowing your readers down every time they try to read your well-crafted content.
 
-Hello internet, I'm **Mohamed Abdelkhalek Salah** (Arabic: **محمد عبدالخالق صلاح**). This is my  [digital garden](https://github.com/MaggieAppleton/digital-gardeners). It’s a public space.
+Zola Bear Blog is all you need to build a fantastic and optimized site or blog. It works perfectly on **any** viewing device. All you need to focus on is writing good content.
 
-> I am a generalist. I am most engaged when working on hard problems that I have not yet wrapped my brain around.
->
-> -- Andrew Kelley
+[Go to the original bear blog](https://bearblog.dev/).
 
-I'm a **Software Engineer**. Adoptable with any technology for now I'm using [NodeJS](https://nodejs.org/), [Typescript](https://www.typescriptlang.org/), [NestJS](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/), and [NextJS](https://nextjs.org/) In my work, using [Golang](https://go.dev/) and [Rust](https://www.rust-lang.org/) for my side project.
+---
 
-## Contacts and Social profiles
+What happens when you combine the worlds' fastest, most lightweight static site generator with a design theme built to provide you with free, no-nonsense, super-fast blogging capabilities?
 
-- Email [me@msalah.net](mailto:me@msalah.net)
-- [GitHub](https://www.github.com/m4salah)
-- [LinkedIn](https://www.linkedin.com/in/mohamed-a-salah)
+**Use this theme, and find out!**
+
+Made with 💚 by [Alan Pearce](https://alanpearce.eu).
+
+---
+
+Simply publish content online, grow an audience, and keep your pages tiny, fast, and **optimized for search engines**.
+
+Each page is ~5kb, and you can **host your blog yourself**.
