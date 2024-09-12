@@ -3,7 +3,7 @@ title= "Mohamed A. Salah"
 template = "homepage.html"
 +++
 
-[![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)
+<a href="https://techforpalestine.org/learn-more"><img src="https://badge.techforpalestine.org/default" alt="Ceasefire Now" width="200" height="50"></a>
 
 Hello internet, I'm **Mohamed Abdelkhalek Salah** (Arabic: **محمد عبدالخالق صلاح**). This is my  [digital garden](https://github.com/MaggieAppleton/digital-gardeners). It’s a public space.
 
